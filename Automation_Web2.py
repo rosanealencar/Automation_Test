@@ -2,6 +2,10 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+class TestingDiscourseWebsite():
+
+
+
 driver = webdriver.Firefox()
 driver.get("https://www.discourse.org/")
 window_before = driver.window_handles[0]

@@ -1,0 +1,7 @@
+Anotacoes curso Git
+Criando um diretorio dentro do repositorio
+
+mkdir <nomedodiretorio>
+
+git add => adiciona o arquivo para staged
+git commit -m " comentario" 
