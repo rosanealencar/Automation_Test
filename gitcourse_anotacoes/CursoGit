@@ -5,3 +5,9 @@ mkdir <nomedodiretorio>
 
 git add => adiciona o arquivo para staged
 git commit -m " comentario" 
+
+hash = numeros correspondentes ao numero da versao
+
+git shortlog -sn
+git log --graph
+git show <hash> // mostra todas as modificacoes feitas no commit
