@@ -1,0 +1,32 @@
+Anotacoes curso Git
+Criando um diretorio dentro do repositorio
+
+mkdir <nomedodiretorio>
+
+git add => adiciona o arquivo para staged
+git commit -m " comentario" 
+
+hash = numeros correspondentes ao numero da versao
+
+git shortlog -sn
+git log --graph
+git show <hash> // mostra todas as modificacoes feitas no commit
+
+git diff / mostra as mudanças antes mesmo de comitar
+git diff --name-only / mostra somente o nome dos arquivos que foram modificados
+
+git checkout / ela volta as alteracoes que tinham sido feitas no arquivo
+
+git commit -am "mensagem" / adiciona todos os arquivos modificados
+
+git reset --soft --mixed --hard <hash do commit antes> / apaga commit
+
+git push origin <nome da branch de destino> / envia as alteracoes remotamente para a branch de destino selecionada
+
+clonar um repositorio faz uma copia do repositorio na sua maquina para vc trabalhar em cima dele
+
+fork = fazer alteraçao em um repositorio que nao é seu, submeter um request e fazer as alteracoes no repositorio destino e uma copia sera feita automaticamente para vc
+
+git branch -D <nome da branch> // apaga a branch
+
+
